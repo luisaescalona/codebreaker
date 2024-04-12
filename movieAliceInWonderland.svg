@@ -1,0 +1,18 @@
+<svg width="382" height="61" viewBox="0 0 382 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="382" height="61" fill="#F5F5F5"/>
+<path d="M-30 -1057C-30 -1058.1 -29.1046 -1059 -28 -1059H473C474.105 -1059 475 -1058.1 475 -1057V2254C475 2255.1 474.105 2256 473 2256H-28C-29.1046 2256 -30 2255.1 -30 2254V-1057Z" fill="white"/>
+<path d="M-28 -1058H473V-1060H-28V-1058ZM474 -1057V2254H476V-1057H474ZM473 2255H-28V2257H473V2255ZM-29 2254V-1057H-31V2254H-29ZM-28 2255C-28.5523 2255 -29 2254.55 -29 2254H-31C-31 2255.66 -29.6569 2257 -28 2257V2255ZM474 2254C474 2254.55 473.552 2255 473 2255V2257C474.657 2257 476 2255.66 476 2254H474ZM473 -1058C473.552 -1058 474 -1057.55 474 -1057H476C476 -1058.66 474.657 -1060 473 -1060V-1058ZM-28 -1060C-29.6569 -1060 -31 -1058.66 -31 -1057H-29C-29 -1057.55 -28.5523 -1058 -28 -1058V-1060Z" fill="black" fill-opacity="0.1"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="0" y="52">&#x1f469;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="55" y="52">&#x1f573;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="110" y="52">&#x1f3a9;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="165" y="52">&#x1f407;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="220" y="52">&#x1f478;</tspan></text>
+<text fill="url(#paint0_linear_0_1)" stroke="#BE3633" stroke-width="2" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="275" y="48.6818">&#x2665;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="332" y="52">&#x1f344;</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="301" y1="0" x2="301" y2="61" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E35C5C"/>
+<stop offset="1" stop-color="#BE3633"/>
+</linearGradient>
+</defs>
+</svg>

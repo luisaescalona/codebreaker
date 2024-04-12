@@ -1,0 +1,7 @@
+<svg width="105" height="51" viewBox="0 0 105 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="105" height="51" fill="#F5F5F5"/>
+<path d="M-33 -195C-33 -196.105 -32.1046 -197 -31 -197H470C471.105 -197 472 -196.105 472 -195V3116C472 3117.1 471.105 3118 470 3118H-31C-32.1046 3118 -33 3117.1 -33 3116V-195Z" fill="white"/>
+<path d="M-31 -196H470V-198H-31V-196ZM471 -195V3116H473V-195H471ZM470 3117H-31V3119H470V3117ZM-32 3116V-195H-34V3116H-32ZM-31 3117C-31.5523 3117 -32 3116.55 -32 3116H-34C-34 3117.66 -32.6569 3119 -31 3119V3117ZM471 3116C471 3116.55 470.552 3117 470 3117V3119C471.657 3119 473 3117.66 473 3116H471ZM470 -196C470.552 -196 471 -195.552 471 -195H473C473 -196.657 471.657 -198 470 -198V-196ZM-31 -198C-32.6569 -198 -34 -196.657 -34 -195H-32C-32 -195.552 -31.5523 -196 -31 -196V-198Z" fill="black" fill-opacity="0.1"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="0" y="46.5">&#x1f92b;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="55" y="46.5">&#x1f411;</tspan></text>
+</svg>

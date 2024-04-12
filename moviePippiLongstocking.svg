@@ -1,0 +1,9 @@
+<svg width="165" height="51" viewBox="0 0 165 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="165" height="51" fill="#F5F5F5"/>
+<path d="M-33 -348C-33 -349.105 -32.1046 -350 -31 -350H470C471.105 -350 472 -349.105 472 -348V2963C472 2964.1 471.105 2965 470 2965H-31C-32.1046 2965 -33 2964.1 -33 2963V-348Z" fill="white"/>
+<path d="M-31 -349H470V-351H-31V-349ZM471 -348V2963H473V-348H471ZM470 2964H-31V2966H470V2964ZM-32 2963V-348H-34V2963H-32ZM-31 2964C-31.5523 2964 -32 2963.55 -32 2963H-34C-34 2964.66 -32.6569 2966 -31 2966V2964ZM471 2963C471 2963.55 470.552 2964 470 2964V2966C471.657 2966 473 2964.66 473 2963H471ZM470 -349C470.552 -349 471 -348.552 471 -348H473C473 -349.657 471.657 -351 470 -351V-349ZM-31 -351C-32.6569 -351 -34 -349.657 -34 -348H-32C-32 -348.552 -31.5523 -349 -31 -349V-351Z" fill="black" fill-opacity="0.1"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="0" y="46.5">&#x1f467;</tspan></text>
+<text fill="#4B4A65" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="20" letter-spacing="0em"><tspan x="55" y="31.9336">+</tspan></text>
+<text fill="#4B4A65" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="20" letter-spacing="0em"><tspan x="72" y="31.9336">long</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="115" y="46.5">&#x1f9e6;</tspan></text>
+</svg>

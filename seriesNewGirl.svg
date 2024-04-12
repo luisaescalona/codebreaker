@@ -1,0 +1,7 @@
+<svg width="108" height="51" viewBox="0 0 108 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="108" height="51" fill="#F5F5F5"/>
+<path d="M-27 -2397C-27 -2398.1 -26.1046 -2399 -25 -2399H476C477.105 -2399 478 -2398.1 478 -2397V914C478 915.105 477.105 916 476 916H-25C-26.1046 916 -27 915.105 -27 914V-2397Z" fill="white"/>
+<path d="M-25 -2398H476V-2400H-25V-2398ZM477 -2397V914H479V-2397H477ZM476 915H-25V917H476V915ZM-26 914V-2397H-28V914H-26ZM-25 915C-25.5523 915 -26 914.552 -26 914H-28C-28 915.657 -26.6569 917 -25 917V915ZM477 914C477 914.552 476.552 915 476 915V917C477.657 917 479 915.657 479 914H477ZM476 -2398C476.552 -2398 477 -2397.55 477 -2397H479C479 -2398.66 477.657 -2400 476 -2400V-2398ZM-25 -2400C-26.6569 -2400 -28 -2398.66 -28 -2397H-26C-26 -2397.55 -25.5523 -2398 -25 -2398V-2400Z" fill="black" fill-opacity="0.1"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="0" y="46.5">&#x2795;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="58" y="46.5">&#x1f469;</tspan></text>
+</svg>

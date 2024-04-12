@@ -1,0 +1,23 @@
+<svg width="224" height="51" viewBox="0 0 224 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="224" height="51" fill="#F5F5F5"/>
+<path d="M-30 -3121C-30 -3122.1 -29.1046 -3123 -28 -3123H473C474.105 -3123 475 -3122.1 475 -3121V190C475 191.105 474.105 192 473 192H-28C-29.1046 192 -30 191.105 -30 190V-3121Z" fill="white"/>
+<path d="M-28 -3122H473V-3124H-28V-3122ZM474 -3121V190H476V-3121H474ZM473 191H-28V193H473V191ZM-29 190V-3121H-31V190H-29ZM-28 191C-28.5523 191 -29 190.552 -29 190H-31C-31 191.657 -29.6569 193 -28 193V191ZM474 190C474 190.552 473.552 191 473 191V193C474.657 193 476 191.657 476 190H474ZM473 -3122C473.552 -3122 474 -3121.55 474 -3121H476C476 -3122.66 474.657 -3124 473 -3124V-3122ZM-28 -3124C-29.6569 -3124 -31 -3122.66 -31 -3121H-29C-29 -3121.55 -28.5523 -3122 -28 -3122V-3124Z" fill="black" fill-opacity="0.1"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="0" y="46.5">&#x1f3e0;</tspan></text>
+<text fill="url(#paint0_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="58" y="46.5">&#x1f388;</tspan></text>
+<text fill="url(#paint1_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="116" y="46.5">&#x1f475;&#x1f3fb;</tspan></text>
+<text fill="url(#paint2_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="174" y="46.5">&#x1f474;&#x1f3fb;</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="83" y1="0" x2="83" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="141" y1="0" x2="141" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="199" y1="0" x2="199" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+</defs>
+</svg>

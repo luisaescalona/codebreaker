@@ -1,0 +1,24 @@
+<svg width="438" height="51" viewBox="0 0 438 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="438" height="51" fill="#F5F5F5"/>
+<path d="M-27 -3041C-27 -3042.1 -26.1046 -3043 -25 -3043H476C477.105 -3043 478 -3042.1 478 -3041V270C478 271.105 477.105 272 476 272H-25C-26.1046 272 -27 271.105 -27 270V-3041Z" fill="white"/>
+<path d="M-25 -3042H476V-3044H-25V-3042ZM477 -3041V270H479V-3041H477ZM476 271H-25V273H476V271ZM-26 270V-3041H-28V270H-26ZM-25 271C-25.5523 271 -26 270.552 -26 270H-28C-28 271.657 -26.6569 273 -25 273V271ZM477 270C477 270.552 476.552 271 476 271V273C477.657 273 479 271.657 479 270H477ZM476 -3042C476.552 -3042 477 -3041.55 477 -3041H479C479 -3042.66 477.657 -3044 476 -3044V-3042ZM-25 -3044C-26.6569 -3044 -28 -3042.66 -28 -3041H-26C-26 -3041.55 -25.5523 -3042 -25 -3042V-3044Z" fill="black" fill-opacity="0.1"/>
+<text fill="url(#paint0_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="0" y="46.5">&#x1f3d6;&#xfe0f;</tspan></text>
+<text fill="#4B4A65" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="20" letter-spacing="0em"><tspan x="58" y="31.9336">+</tspan></text>
+<text fill="url(#paint1_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="78" y="46.5">&#x1f1fa;&#x1f1f8;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="136" y="46.5">&#x1f46e;&#x200d;&#x2640;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="194" y="46.5">&#x1f468;&#x200d;&#x1f9b0;</tspan></text>
+<text fill="#4B4A65" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="20" letter-spacing="0em"><tspan x="252" y="31.9336">+</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="272" y="46.5">&#x1f576;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="330" y="46.5">&#x1fa78;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="388" y="46.5">&#x1f469;&#x200d;&#x1f52c;</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="25" y1="0" x2="25" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="103" y1="0" x2="103" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+</defs>
+</svg>

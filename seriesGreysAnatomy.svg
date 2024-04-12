@@ -1,0 +1,16 @@
+<svg width="284" height="61" viewBox="0 0 284 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="284" height="61" fill="#F5F5F5"/>
+<path d="M-27 -2298C-27 -2299.1 -26.1046 -2300 -25 -2300H476C477.105 -2300 478 -2299.1 478 -2298V1013C478 1014.1 477.105 1015 476 1015H-25C-26.1046 1015 -27 1014.1 -27 1013V-2298Z" fill="white"/>
+<path d="M-25 -2299H476V-2301H-25V-2299ZM477 -2298V1013H479V-2298H477ZM476 1014H-25V1016H476V1014ZM-26 1013V-2298H-28V1013H-26ZM-25 1014C-25.5523 1014 -26 1013.55 -26 1013H-28C-28 1014.66 -26.6569 1016 -25 1016V1014ZM477 1013C477 1013.55 476.552 1014 476 1014V1016C477.657 1016 479 1014.66 479 1013H477ZM476 -2299C476.552 -2299 477 -2298.55 477 -2298H479C479 -2299.66 477.657 -2301 476 -2301V-2299ZM-25 -2301C-26.6569 -2301 -28 -2299.66 -28 -2298H-26C-26 -2298.55 -25.5523 -2299 -25 -2299V-2301Z" fill="black" fill-opacity="0.1"/>
+<text fill="url(#paint0_linear_0_1)" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="50" letter-spacing="0em"><tspan x="0" y="48.6818">&#x2665;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="60" y="46.5">&#x1fac0;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="118" y="46.5">&#x1f3e5;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="176" y="46.5">&#x1f469;&#x1f3fc;&#x200d;&#x2695;&#xfe0f;</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Urbanist" font-size="50" letter-spacing="0em"><tspan x="234" y="46.5">&#x1f491;</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="26" y1="0" x2="26" y2="61" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0A0A0"/>
+<stop offset="1" stop-color="#7C7C7C"/>
+</linearGradient>
+</defs>
+</svg>
