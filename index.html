@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codebreaker</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section class="section is-medium">
+      <div id="app" class="container p-6">
+        <h1 class="title">
+          <a href="index.html"><img src="logo.svg" /></a>
+        </h1>
+        <progress
+          class="progress is-danger"
+          v-bind:value="currentTime"
+          v-bind:max="maxTime"
+        >
+          {{currentTime}}
+        </progress>
+
+        <div v-if="showInstructions">
+          <div class="card">
+            <div class="card-content">
+              <div class="content p-5">
+                <p class="subtitle is-4" v-html="initialInstructions"></p>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Your name"
+                    v-model="player"
+                    @keyup.enter="startPlaying"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <p class="control has-icons-left">
+            <button
+              tabindex="1"
+              v-on:click="startPlaying"
+              class="button mybutton p-5"
+            >
+              <p tabindex="-1" class="is-size-4">Start</p>
+            </button>
+          </p>
+        </div>
+
+        <div v-else>
+          <div v-if="isPlaying">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">{{step.category}}</p>
+              </header>
+              <div class="card-content">
+                <div class="content p-5">
+                  <p class="subtitle is-4" v-html="step.puzzle"></p>
+                </div>
+                <br />
+                <div class="field">
+                  <label class="label">{{step.words}}</label>
+                  <div class="control">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder=""
+                      v-model="currentAnswer"
+                      @keyup.enter="submit"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <p class="control has-icons-left">
+              <button
+                tabindex="1"
+                v-on:click="submit"
+                class="button mybutton p-5"
+                v-if="isPlaying"
+                v-bind:disabled="currentTime >= maxTime"
+              >
+                <p tabindex="-1" class="is-size-4">Send</p>
+              </button>
+            </p>
+          </div>
+          <div v-else>
+            <div class="content">
+              <b>{{ player }}, your score is:</b>
+              <h2>{{finalScore}} points</h2>
+              <p class="control has-icons-left">
+                <a
+                  tabindex="1"
+                  href="https://pmt-olympics.vercel.app/my-account"
+                  class="button mybutton p-5"
+                  target="_blank"
+                  >Go to the board
+                </a>
+              </p>
+            </div>
+
+            <br />
+            <div class="columns">
+              <div class="column" v-for="item in answers">
+                <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title">
+                      {{item.question.category}} - {{item.question.words}}
+                    </p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content" v-html="item.question.puzzle"></div>
+                    <b>Your answer: </b>{{item.answer}}
+                  </div>
+                  <footer class="card-footer">
+                    <span class="card-footer-item"
+                      ><b>{{item.points}} points</b></span
+                    >
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+
+    <script>
+      var app = new Vue({
+        el: "#app",
+        data: {
+          initialInstructions:
+            "<b>Solve as many emoji puzzles as you can in 3 minutes.</b><br><br>Guess the whole phrase correctly for double the points.<br>Earn points for each word guessed correctly without hints.",
+          player: "",
+          currentAnswer: "",
+          answers: [],
+          withAnswer: [],
+          withoutAnswer: [],
+          questionNumbers: [],
+          isPlaying: false,
+          showInstructions: true,
+          finalScore: 0,
+          currentTime: 0,
+          maxTime: 60,
+          step: {
+            puzzle: "",
+            phrase: "",
+          },
+          questions: [
+            {
+              puzzle: "🪜  ➡️  🌫",
+              phrase: "stairway to heaven",
+              category: "Song",
+              words: "3 words",
+            },
+            {
+              puzzle: "☎️  🙋  🤔",
+              phrase: "call me maybe",
+              category: "Song",
+              words: "3 words",
+            },
+            {
+              puzzle: "💎💎💎",
+              phrase: "diamonds",
+              category: "Song",
+              words: "1 word",
+            },
+            {
+              puzzle: "🇺🇸 💄 💋",
+              phrase: "american beauty",
+              category: "Movie",
+              words: "2 words",
+            },
+            {
+              puzzle: "🦸‍♀️🦸🦸‍♂️",
+              phrase: "heroes",
+              category: "Song",
+              words: "1 word",
+            },
+            {
+              puzzle: "<img src='BillieJean.svg' />",
+              phrase: "billie jean",
+              category: "Song",
+              words: "2 words",
+            },
+            {
+              puzzle: "👶 👶 👶",
+              phrase: "baby baby baby",
+              category: "Song",
+              words: "3 words",
+            },
+            {
+              puzzle: "🔎 🐠",
+              phrase: "finding nemo",
+              category: "Movie",
+              words: "2 words",
+            },
+            {
+              puzzle: "<img src='PresentationMovieIAmLegend.svg' />",
+              phrase: "i am legend",
+              category: "Movie",
+              words: "3 words",
+            },
+          ],
+        },
+        methods: {
+          submit: function () {
+            if (this.currentAnswer.trim().length === 0) {
+              this.withoutAnswer.push(this.questionNumbers.slice(-1));
+            } else {
+              this.withAnswer.push(this.questionNumbers.slice(-1));
+            }
+            this.answers.push({
+              question: this.step,
+              answer: this.currentAnswer,
+              points: 0,
+            });
+            this.selectQuestion();
+          },
+          selectQuestion: function () {
+            if (this.questionNumbers.length < this.questions.length) {
+              this.currentAnswer = "";
+              let number;
+              let wasShownBefore = true;
+              while (wasShownBefore) {
+                number = Math.floor(
+                  Math.random() * (this.questions.length - 1)
+                );
+                wasShownBefore = this.questionNumbers.includes(number);
+              }
+              this.step = this.questions[number];
+              this.questionNumbers.push(number);
+            } else {
+              this.currentTime = this.maxTime;
+              this.isPlaying = false;
+            }
+            // this.$refs.answerInput.focus();
+          },
+          startPlaying: function () {
+            this.selectQuestion();
+            this.isPlaying = true;
+            this.showInstructions = false;
+            setTimeout(() => this.countDown(), 1000);
+          },
+          calculatePoints: function (answer) {
+            let points = 0;
+            const question = answer.question;
+            if (answer.answer.trim().length > 0) {
+              const playerArray = answer.answer.toLowerCase().split(" ");
+              const correctAnswerArray = question.phrase.split(" ");
+              playerArray.forEach((element) => {
+                if (
+                  correctAnswerArray.findIndex(
+                    (correct) => element === correct
+                  ) >= 0
+                ) {
+                  points += 10;
+                }
+              });
+              if (
+                JSON.stringify(playerArray) ===
+                JSON.stringify(correctAnswerArray)
+              ) {
+                points = 2 * points;
+              }
+            }
+            return points;
+          },
+          countDown: function () {
+            if (this.currentTime < this.maxTime) {
+              this.currentTime += 1;
+              setTimeout(() => this.countDown(), 1000);
+            } else {
+              this.currentTime = this.maxTime;
+              let totalPoints = 0;
+              for (let i = 0; i < this.answers.length; i++) {
+                const points = this.calculatePoints(this.answers[i]);
+                this.answers[i].points = points;
+                totalPoints += points;
+              }
+              this.isPlaying = false;
+              this.finalScore = totalPoints;
+            }
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

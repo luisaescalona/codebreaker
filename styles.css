@@ -1,0 +1,32 @@
+.mybutton {
+  background-color: #ff278f;
+  border-color: #ff278f;
+  color: #ffffff;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+.mybutton:hover {
+  background-color: #ffffff;
+  color: #ff278f;
+  border-style: solid;
+  border-color: #ff278f;
+}
+.mybutton:active {
+  background-color: rgb(255, 154, 116);
+  border-color: rgb(255, 154, 116);
+  color: #ffffff;
+}
+.mybutton:visited {
+  background-color: #ff278f;
+  border-color: #ff278f;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.mybutton:disabled {
+  background-color: rgb(176, 176, 176);
+  color: #ffffff;
+  border-style: solid;
+  border-color: rgb(176, 176, 176);
+  border-radius: 2rem 2rem 2rem 2rem;
+}
